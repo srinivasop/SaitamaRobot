@@ -77,9 +77,9 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/b14beb6718905cebde153.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/25edc06cfcab55da343df.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
+ = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
@@ -207,7 +207,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/{pika_pikachu_official}"),
                          InlineKeyboardButton(
                              text="🔔 Updates Channel",
                              url="https://t.me/OnePunchUpdates")
